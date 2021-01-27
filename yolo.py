@@ -164,7 +164,7 @@ class YOLO(object):
             box = out_boxes[i]
             score = out_scores[i]
 
-            top, left, bottom, right = box
+            left, top, right, bottom = box
             top = top - 5
             left = left - 5
             bottom = bottom + 5
